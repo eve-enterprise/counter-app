@@ -1,0 +1,60 @@
+main affiage avec card avec +/- pour modifier score
+avec (pseudo) au dessus
+
+home-page (pour quand tu ouvre l'app ou sur le dernier preset utiliser):
+disposition en flex colomun en rectangle de tes presets qui rappel les boite de jeu de sociere en forme de parallelipipede -> possiblite de modifier le background pour
+y ajouter une image (pour personnalise tes preset)
+
+
+un scroll right to left pour afficher les parametres
+en bas des preset, il y a un boutojn a droite + pour ajouter un preset
+en bas a gauche un bouton home page
+
+la partie sera sauvegarder en cache
+
+possibilite de breakpoint pour les jeu comme skull et harmonie ou tu va decompte des categorie de points choisi a la creation du compteur
+
+ajout d'un timer si besoin
+
+ajout d'une pandule pour les duel de type echec
+
+hold press : 10 * step
+
+profile :
+utilisateur (avec pseudo, couleur prefere, pp)
+lieu(table)
+
+creation de preset :
+[pour chaque categorier, mettre une checkbox "variable" pour definir qu'au lancement du preset, lapp demanderas a l'user de upd cette categorie]
+nombre de joueur (max 8 ?)
+(min et max) pour score
+choit du style de grid : cadrillage blank ou le joueur 1 choisit sa place, clique pour afficher sa score-card, si il reclique ca passera au joueur suivant,
+jusqu'au breakpoint bouton et tout autre componet(setting, timer...)
+couleur de notre score-card
+checkbox pour pandule
+checkbox pour breakpoint (infini pour les cas de tcg pour compatibilite avec historique)
+choix du step
+possiblite de link sur des "sous presset" cf. armory duel sur fab et blitz duel sur fab, où quand tu demarre le preset
+ta la dispo par defaut et un lien rapide pour switch et passer sur le sous preset armory
+
+base de donne pour memoriser le nom des joueurs
+
+preset de table (en mode lieu : chez vincent)
+1- bouton pour reset la disposition des joueurs  car de base sa sera la derniere disposition qui sera sauvegarder
+2- bouton pour ajouter une nouvelle disposition de table
+
+breakpoint (ou on clique sur plus):
+affiche une liste modulaire : ajout/ suppresion de breakpoint
+name (info bulle? a ajouter pour l'user si jamais il a oublier c'etait quoi ce breakpoint, on parle ici d'une description)
+
+game-page:
+en haut a droite un bouton historique pour voir le recapitulatif
+	main compteur + breakpoint...
+aside en bas : une nav bar avec a gauche un lock/add-state, et un reser bouton
+
+
+
+v2 :
+conponet de total score au milieu de nos score-card dans le cas de 2v2, 3v3, co-op.
+
+ajout d'IA vocal pour annoncer joueur, score etc...
