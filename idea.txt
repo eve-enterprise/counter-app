@@ -52,7 +52,7 @@ en haut a droite un bouton historique pour voir le recapitulatif
 	main compteur + breakpoint...
 aside en bas : une nav bar avec a gauche un lock/add-state, et un reser bouton
 
-
+Adaptation avec barbu, en gros state pour chaque user
 
 v2 :
 conponet de total score au milieu de nos score-card dans le cas de 2v2, 3v3, co-op.
