@@ -98,3 +98,38 @@ i {
 }
 
 /* END - NAV BAR */
+
+/* START - MODAL */
+
+.modal {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	z-index: -120;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease;
+}
+
+.modal.show {
+	z-index: 120;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal .modal-dialog {
+	width: 80%;
+	height: 80%;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	overflow-y: scroll;
+	translate: 0 100vh;
+	transition: transform 0.3s ease;
+}
+
+.modal.show .modal-dialog {
+	transform: translateY(-100vh);
+}
+
+/* END - MODAL */
