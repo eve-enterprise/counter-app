@@ -58,3 +58,12 @@ v2 :
 conponet de total score au milieu de nos score-card dans le cas de 2v2, 3v3, co-op.
 
 ajout d'IA vocal pour annoncer joueur, score etc...
+
+
+class btn -> simple click = action d'ouverture, swip a gauche pour editer supprimer, appuie longtemps pour drag and drop
+
+Sertings accessibilties : suppression du rouage, press button to swap (pour les components modifiables / supprimables)
+
+V2 gestion de profile d'user
+V2 api spotify deezer pour mettre du son
+V2 ajout de themes
