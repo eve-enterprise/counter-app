@@ -1,5 +1,4 @@
 /* Fichier CSS principal */
-
 * {
 	margin: 0;
 	padding: 0;
@@ -13,10 +12,24 @@ body {
 	line-height: 1.6;
 }
 
+html::-webkit-scrollbar {
+	display: none;
+}
+
 h1 {
 	color: #3498db;
 }
 
 p {
 	font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+button {
+	background-color: none;
+	border: none;
 }

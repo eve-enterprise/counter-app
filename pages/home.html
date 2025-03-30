@@ -2,21 +2,25 @@
 <html lang="fr">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
 		<title>Counter App</title>
 		<script
 			src="https://kit.fontawesome.com/a90f55e1b0.js"
 			crossorigin="anonymous"
 		></script>
-		<link rel="stylesheet" href="css/style.css" />
-		<!-- Lien vers ton fichier CSS -->
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="stylesheet" href="../css/home.css" />
 	</head>
 	<body>
-		<header>
+		<button type="button" id="btn_settings" class="btn fixed-tr">
 			<i class="fa-solid fa-gear"></i>
-		</header>
+		</button>
+		<section id="panel_settings" class="show"></section>
 		<main>
-			<div class="cards draggable-zone">
+			<section class="cards draggable-zone">
 				<div class="card draggable">
 					<div class="card-content bg-image">
 						<span class="hidden">UNO</span>
@@ -74,14 +78,18 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</main>
-		<footer class="nav">
-			<i class="fa-solid fa-house"></i>
-			<i class="fa-solid fa-user"></i>
-			<i class="fa-solid fa-plus"></i>
-		</footer>
-
-		<script src="js/script.js"></script>
+		<nav class="nav fixed-b">
+			<a href="#home" class="nav-item">
+				<i class="fa-solid fa-house"></i>
+			</a>
+			<a href="#profiles" class="nav-item">
+				<i class="fa-solid fa-user"></i>
+			</a>
+			<button type="button" id="add_card" class="nav-item">
+				<i class="fa-solid fa-plus"></i>
+			</button>
+		</nav>
 	</body>
 </html>
