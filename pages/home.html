@@ -1,20 +1,87 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mon Projet Web</title>
-	<link rel="stylesheet" href="css/style.css"> <!-- Lien vers ton fichier CSS -->
-</head>
-<body>
-	<header>
-		<h1>Bienvenue sur mon site</h1>
-	</header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Counter App</title>
+		<script
+			src="https://kit.fontawesome.com/a90f55e1b0.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Lien vers ton fichier CSS -->
+	</head>
+	<body>
+		<header>
+			<i class="fa-solid fa-gear"></i>
+		</header>
+		<main>
+			<div class="cards draggable-zone">
+				<div class="card draggable">
+					<div class="card-content bg-image">
+						<span class="hidden">UNO</span>
+					</div>
+					<div class="card-update">
+						<div class="card-edit">
+							<i class="fa-solid fa-pen"></i>
+						</div>
+						<div class="card-remove">
+							<i class="fa-solid fa-trash"></i>
+						</div>
+					</div>
+					<div class="card-content bg-image">
+						<span class="">FAB</span>
+					</div>
+					<div class="card-update">
+						<div class="card-edit">
+							<i class="fa-solid fa-pen"></i>
+						</div>
+						<div class="card-remove">
+							<i class="fa-solid fa-trash"></i>
+						</div>
+					</div>
+					<div class="card-content bg-color">
+						<span class="hidden">SKULL KING</span>
+					</div>
+					<div class="card-update">
+						<div class="card-edit">
+							<i class="fa-solid fa-pen"></i>
+						</div>
+						<div class="card-remove">
+							<i class="fa-solid fa-trash"></i>
+						</div>
+					</div>
+					<div class="card-content bg-color">
+						<span class="">TRIO</span>
+					</div>
+					<div class="card-update">
+						<div class="card-edit">
+							<i class="fa-solid fa-pen"></i>
+						</div>
+						<div class="card-remove">
+							<i class="fa-solid fa-trash"></i>
+						</div>
+					</div>
+					<div class="card-content">
+						<span class="">ROI DE COEUR</span>
+					</div>
+					<div class="card-update">
+						<div class="card-edit">
+							<i class="fa-solid fa-pen"></i>
+						</div>
+						<div class="card-remove">
+							<i class="fa-solid fa-trash"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="nav">
+			<i class="fa-solid fa-house"></i>
+			<i class="fa-solid fa-user"></i>
+			<i class="fa-solid fa-plus"></i>
+		</footer>
 
-	<main>
-		<p>C'est une page de test pour mon projet HTML/CSS/JS.</p>
-	</main>
-
-	<script src="js/script.js"></script> <!-- Lien vers ton fichier JS -->
-</body>
+		<script src="js/script.js"></script>
+	</body>
 </html>
