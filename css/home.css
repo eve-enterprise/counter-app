@@ -112,11 +112,9 @@
 
 
 .nav a:hover, .nav button:hover{
-	background-color: rgb(205, 164, 244);
 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 	background-color: var(--color-secondary);
 	color:white;
-
 }
 
 /* END - NAV BAR */
