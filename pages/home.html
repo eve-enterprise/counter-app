@@ -12,13 +12,10 @@
 		<link rel="stylesheet" href="../css/home.css" />
 	</head>
 	<body>
-		<div class="header">
-			<button type="button" id="btn_settings" class="btn fixed-t active-param">
-				<i class="fa-solid fa-gear"></i>
-			</button>
-		</div>
-
-		<section id="panel_settings" class="show"></section>
+		<button type="button" id="btn_settings" class="btn-settings fixed-tr">
+			<i class="fa-solid fa-gear"></i>
+		</button>
+		<section id="panel_settings" class="panel transition-left"></section>
 		<main>
 			<section class="cards draggable-zone">
 				<div class="card draggable">
@@ -89,7 +86,7 @@
 			</section>
 		</main>
 		<nav class="nav fixed-b">
-			<a href="#home" class="nav-item">
+			<a href="#home" class="nav-item active">
 				<i class="fa-solid fa-house"></i>
 			</a>
 			<span></span>
