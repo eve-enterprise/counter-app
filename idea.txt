@@ -29,7 +29,7 @@ creation de preset :
 nombre de joueur (max 8 ?)
 (min et max) pour score
 choit du style de grid : cadrillage blank ou le joueur 1 choisit sa place, clique pour afficher sa score-card, si il reclique ca passera au joueur suivant,
-jusqu'au breakpoint bouton et tout autre componet(setting, timer...)
+jusqu'au breakpoint bouton et tout autre componet(setting, timer...) -> preset de table
 couleur de notre score-card
 checkbox pour pandule
 checkbox pour breakpoint (infini pour les cas de tcg pour compatibilite avec historique)
