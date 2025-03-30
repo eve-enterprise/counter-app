@@ -53,8 +53,13 @@
 	align-items: center;
 	justify-content: space-around;
 	border-radius: 8px;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: var(--color-secondary);
 }
+
+.card .card-update button {
+	color: white;
+}
+
 
 /* END - CARDS */
 
@@ -96,7 +101,7 @@
 
 
 .nav a:hover, .nav button:hover{
-	background-color: rgb(205, 164, 244);
+	background-color: var(--color-secondary);
 	color:white;
 
 }

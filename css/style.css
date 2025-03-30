@@ -1,6 +1,7 @@
 /* Fichier CSS principal */
 :root {
 	--space-unit: 4px;
+	--color-secondary: rgb(205, 164, 244);
 }
 
 * {
@@ -40,6 +41,7 @@ button {
 
 i {
 	background-color: inherit;
+	color: inherit;
 }
 
 .hidden {
