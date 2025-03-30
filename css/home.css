@@ -2,12 +2,34 @@
 .cards {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: calc(var(--space-unit) * 2);
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	padding: calc(var(--space-unit) * 2);
+	min-width: 80%;
+	text-align: center;
 }
 /* END - CARDS */
 
 /* START - NAV BAR */
 
 .nav {
+	margin-top: 20px;
+	display: flex;
+	padding: 5%;
+	justify-self: center;
+	gap: 20px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
 }
+
+
 
 /* END - NAV BAR */

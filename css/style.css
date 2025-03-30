@@ -1,4 +1,8 @@
 /* Fichier CSS principal */
+:root {
+	--space-unit: 4px;
+}
+
 * {
 	margin: 0;
 	padding: 0;
