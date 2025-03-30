@@ -102,3 +102,36 @@
 }
 
 /* END - NAV BAR */
+
+/* START - SETTINGS BUTTON*/
+
+
+.header{
+	display: flex;
+	justify-content: end;
+}
+
+.btn{
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+}
+
+.btn i{
+	justify-self: end;
+}
+
+.active-param{
+	color: rgb(205, 164, 244);
+}
+
+.active{
+	background-color: rgb(205, 164, 244);
+	color:white;
+}
+
+.fixed-tr{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* END - SETTINGS BUTTON*/
