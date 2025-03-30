@@ -37,3 +37,73 @@
 }
 
 /* ENDING - CARDS */
+
+/* START - MODAL CONTENT */
+
+.modal-header
+{
+	padding: calc(var(--space-unit) * 2 + 1rem);
+	align-self: flex-end;
+
+}
+
+.close-modal{
+	color: black;
+	font-size: 1.5rem;
+}
+
+.modal-content
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-body
+{
+	flex-grow: 1;
+}
+
+.modal-body .form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+}
+
+.modal-body .form input[type="text"], .modal-body .form input[type="submit"]{
+	padding: calc(var(--space-unit) * 3);
+	display: block;
+	border-radius: 10px;
+	border: 0;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+	background-color: inherit;
+}
+
+.modal-body .form input[type="text"]{
+	border: 2px solid var(--color-secondary);
+	padding: calc(var(--space-unit) * 3);
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body .form input[type="submit"]{
+	background-color: var(--card-color);
+	cursor: pointer;
+	width: 100%;
+}
+
+#photo{	
+	display: none;
+}
+
+.modal-body .form input[type="color"]{
+	scale: 4;
+}
+
+/* ENDING - MODAL CONTENT */
+
+

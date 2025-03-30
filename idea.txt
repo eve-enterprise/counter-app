@@ -67,3 +67,4 @@ Sertings accessibilties : suppression du rouage, press button to swap (pour les 
 V2 gestion de profile d'user
 V2 api spotify deezer pour mettre du son
 V2 ajout de themes
+V2 ajout de random pick sur les pdp des profil users
