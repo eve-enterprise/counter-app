@@ -94,6 +94,8 @@
 	width: 1px;
 	border-radius: 10px;
 	height: 40px;
+	filter: blur(0.5px);
+
 }
 
 .nav a, .nav button{
@@ -110,10 +112,52 @@
 
 
 .nav a:hover, .nav button:hover{
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
 	background-color: var(--color-secondary);
 	color:white;
-
 }
 
 /* END - NAV BAR */
 
+/* START - SETTINGS BUTTON*/
+
+.header{
+	display: flex;
+}
+
+.btn{
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+	text-align: end;
+	padding: 5%;;
+	border-bottom: 2px solid rgba(3, 3, 3, 0.1);
+	filter: blur(0.5px);
+	flex-grow : 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+	color: rgb(205, 164, 244);
+	background-color: #333;
+}
+
+.btn i{
+	background-color: transparent;
+}
+
+.active-param{
+	/* color: rgb(205, 164, 244); */
+	/* background-color: #333; */
+}
+
+.active{
+	background-color: rgb(205, 164, 244);
+	color:white;
+}
+
+.fixed-tr{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* END - SETTINGS BUTTON*/
