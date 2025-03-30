@@ -1,0 +1,39 @@
+/* START - CARDS */
+
+.card-content.bg-color {
+	background-color: rgb(51, 152, 219);
+	color: white;
+}
+
+.card-content {
+	background-color: #fff;
+	color: #333;
+}
+
+.card .card-content {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-around; */
+	align-items: center;
+	flex-grow: 1;
+	padding: calc(var(--space-unit) * 2);
+	text-align: center;
+	transform: scale(1);
+}
+
+.card .card-content img{
+	object-fit: cover;
+	width: 2.5rem;
+	border-radius: 50%;
+	justify-self: start;
+	aspect-ratio: 1/1;
+}
+
+.card .card-content span{
+	flex-grow: 1;
+	font-size: 1.3rem;
+	display: block;
+	justify-self: center;
+}
+
+/* ENDING - CARDS */
