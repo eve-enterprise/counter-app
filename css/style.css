@@ -34,6 +34,14 @@ a {
 }
 
 button {
-	background-color: none;
+	background-color: transparent;
 	border: none;
+}
+
+i {
+	background-color: inherit;
+}
+
+.hidden {
+	display: none;
 }
